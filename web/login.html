@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feedback Form</title>
+<link rel="stylesheet" href="../css/style_7.css">
+</head>
+<body>
+
+<header>
+    <h1>Kaihatsu-Sha</h1>
+</header>
+
+<nav>
+    <a href="../web/home.html">Home</a>
+    <a href="../web/java.html">JAVA</a>
+    <a href="../web/javasp.html">JScode</a>
+    <a href="../web/contact.html">Contact</a>
+</nav>
+
+<div class="container">
+    <h2>Leave your feedback</h2>
+    <form id="feedbackForm">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="feedback">Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" required></textarea><br><br>
+        <input type="submit" value="Submit" style="background: orange; transform: scale(1.2);">
+    </form>
+    <p id="confirmation" style="display:none; color:rgb(12, 170, 164);"><a style="text-decoration: none; "href="../index.html"><button class="bt"> Click for NEXT</button> </a></p>
+</div>
+
+<footer>
+    &copy; 2025 Feedback Form Example
+</footer>
+<script src="../script/script_3.js"></script>
+
+</body>
+</html>

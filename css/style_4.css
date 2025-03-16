@@ -1,0 +1,138 @@
+body {
+  border: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  margin-top: 0%;
+  background: rgb(10, 145, 98);
+  font-family: calibri;
+  padding-right: 0;
+  padding-left: 0;
+  border-width: 0;
+  border: 0;
+}
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo {
+  align-items: center;
+  margin-top: -2%;
+}
+.navbar ul {
+  align-items: center;
+  margin-top: 1%;
+}
+.logo .link_1 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #121212;
+}
+.list {
+  list-style: none;
+  display: inline-block;
+}
+.list .link_2 {
+  color: rgb(5, 6, 5);
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.container li:hover {
+  transform: scale(1.2);
+}
+.html-files,
+.js-files {
+  flex: 1;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  border-bottom: 1px;
+}
+
+a:hover {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+  .video {
+    width: 100%;
+    height: auto;
+    position: fixed;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video {
+    width: auto;
+    height: 100%;
+    position: fixed;
+  }
+}
+.file {
+  background: #327e9c8d;
+}
+li {
+  border-bottom: 10px solid rgba(0, 0, 0, 0);
+}
+.js-files {
+  border-left: 10px solid rgba(0, 0, 0, 0);
+}
+h2 {
+  color: #fff;
+  font-size: 50px;
+}
+li .file {
+  display: flex;
+  color: aqua;
+  font-size: 40px;
+  width: 300px;
+}
+.container ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.js-files {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.js-files h2 {
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+.html-files {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.html-files h2 {
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
